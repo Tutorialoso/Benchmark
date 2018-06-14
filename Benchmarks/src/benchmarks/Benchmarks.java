@@ -72,4 +72,10 @@ public class Benchmarks {
         System.out.println(solutions);
         return elapsedTime;
     }
+    
+    public static long stringSort(){
+        long startingTime = System.nanoTime();
+        long elapsedTime = System.nanoTime() - startingTime;
+        return elapsedTime;
+    }
 }
